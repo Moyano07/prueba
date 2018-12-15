@@ -1,4 +1,4 @@
-<?php 
+<?php
 	trait Saluda
 	{
 
@@ -36,4 +36,6 @@
 	$persona3 = new Persona();
 	$persona3 -> darNombre(0);
 	$persona3 -> saludo();
+	$persona1 = new Persona();
+	$persona1 -> darNombre("Pedro");
 ?>
