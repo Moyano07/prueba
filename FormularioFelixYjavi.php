@@ -1,10 +1,12 @@
 <?php
 $nombre1="";
 $nombre2="";
+$nombre3="";
 
 if(isset($_POST['enviar'])){
   $nombre1 = $_POST['nombre1'];
   $nombre2 = $_POST['nombre2'];
+  $nombre3 = $_POST['nombre3'];
 
 }
 
@@ -22,6 +24,8 @@ if(isset($_POST['enviar'])){
     Nombre 1<input type="text" name="nombre1" value="<?=$nombre1?>">
     <br>
     Nombre 2<input type="text" name="nombre2" value="<?=$nombre2?>">
+    <br>
+    Nombre 3<input type="text" name="nombre2" value="<?=$nombre3?>">
     <br>
     <input type="submit" name="enviar" value="Enviar">
    </form>
